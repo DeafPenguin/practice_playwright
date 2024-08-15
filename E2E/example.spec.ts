@@ -10,3 +10,13 @@ test('Validate page element', async ({ page }) => {
     // Validate Header is visible
     await testautomationpracticePage.validateHeaderIsVisible();
 });
+
+test('Fill Form', async ({ page }) => {
+    const testautomationpracticePage = new TestAutomationPracticePage(page);
+
+    // Navigate to the page
+    await testautomationpracticePage.navigate();
+
+    // Fill the form
+    
+});

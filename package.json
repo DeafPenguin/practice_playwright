@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@playwright/test": "^1.46.0"
+    "@playwright/test": "^1.46.0",
+    "axios": "^1.7.3",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36"
   }
 }
